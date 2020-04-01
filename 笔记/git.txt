@@ -1,6 +1,9 @@
 官方网站：https://git-scm.com/book/zh/v2/起步-安装-Git
-git init  做初始化  会生成一个.git隐藏文件 （所有配置，版本信息，全都存在.git文件里，不能轻易修改 ）
+
+
+git init  做初始化  会生成一个.git隐藏文件，让git帮助我们管理当前文件夹 （所有配置，版本信息，全都存在.git文件里，不能轻易修改 ）
 git status  检测当前文件夹下的文件的文件状态【modified：文件名（在上一个版本的基础上修改了此文件）】
 git add  文件名 管理此文件（被管理的文件是绿色的）
 git add . 管理所有文件
 git commit -m 'v1 '   生成一个版本
+git log  查看版本
